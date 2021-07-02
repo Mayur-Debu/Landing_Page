@@ -2,10 +2,10 @@ html {
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
 }
 body {
-	margin: 0;
-	scroll-behavior: smooth;
+	margin: 0px;
 }
 article,
 aside,
@@ -623,7 +623,6 @@ label {
 	padding: 16px 32px;
 	top: 8px;
 	width: auto;
-	z-index: 100000;
 }
 .list-reset {
 	list-style: none;
@@ -1057,10 +1056,10 @@ label {
 }
 .button {
 	display: inline-flex;
-	font-size: 14px;
+	font-size: 15px;
 	letter-spacing: 0px;
 	font-weight: 700;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	line-height: 16px;
 	text-decoration: none !important;
 	background-color: #fff;
@@ -1393,7 +1392,6 @@ label {
 	width: 100%;
 }
 .testimonial-inner::before {
-	content: "";
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1502,12 +1500,14 @@ label {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 }
 .boxed-container {
 	max-width: 1440px;
 	margin: 0 auto;
+	/* border-radius: 8px; */
 	box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
+	/* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 main {
 	flex: 1 0 auto;
