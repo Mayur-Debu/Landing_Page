@@ -1387,6 +1387,7 @@ label {
 	flex-wrap: wrap;
 	background: #fff;
 	padding: 52px 24px 24px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .testimonial-inner > * {
 	width: 100%;
